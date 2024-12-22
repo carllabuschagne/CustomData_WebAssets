@@ -1,7 +1,7 @@
 <div align="center">
 <br />
   <img src="WaybillRevenueService/Content/Logo.png" alt="logo" width="20%" style='border-radius: 5px;' height="auto" />
-  <h1>Developer Scripts</h1>
+  <h1>Developer Web Assets</h1>
   <p>
     An API to manage Customers and Accounts
   </p>
