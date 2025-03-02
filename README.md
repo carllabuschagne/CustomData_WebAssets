@@ -4,38 +4,22 @@
   <img src="WaybillRevenueService/Content/Logo.png" alt="logo" width="20%" style='border-radius: 5px;' height="auto" />
   <h1>Developer Web Assets</h1>
   <p>
-    An API to manage Customers and Accounts
+    Assets to use...
   </p>
 </div>
 
-### :space_invader: Details
+### :space_invader: Assets
 
-The API...
+## :bat: Angular Templates
 
-## :bat: Connection Settings
-
-Set connection to connect to your MS SQL instance in the appsettings.json file.
-NB: Entity Framework shall create the required Database and Tables.
-
-```json
- "ConnectionStrings": {
-    "databaseContext": "Server=localhost;Database=BankerAPI;User Id=sa;Password=xxxxx;TrustServerCertificate=True;"
-  }
-```
+Angular Templates to get you started
 
 <br/>
 
-## :eyes: Logging
+## :eyes: Bootstrap Templates
 
-Logging Text/Json file
+Bootstrap Templates to get you started
 
-```html
-logs/logs-.txt logs/logs-.json
-```
-
-<div align="center">
-  <img src="WaybillRevenueService/Content/Logs.png" alt="logo" width="99%" style='border-radius: 5px;' height="auto" />
-</div>
 <br/>
 
 ## :fire: Entity Models
