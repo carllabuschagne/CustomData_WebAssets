@@ -29,7 +29,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
+  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
+  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -42,27 +43,8 @@ source {
     source_file: "fonts/variable/PlaywriteAT-Italic[wght].ttf"
     dest_file: "PlaywriteAT-Italic[wght].ttf"
   }
-  files {
-    source_file: "documentation/about/AT/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "documentation/about/AT/Playwrite-Osterreich-1.png"
-    dest_file: "article/Playwrite-Osterreich-1.png"
-  }
-  files {
-    source_file: "documentation/about/AT/Playwrite-Osterreich-2.png"
-    dest_file: "article/Playwrite-Osterreich-2.png"
-  }
-  files {
-    source_file: "documentation/about/AT/Playwrite-Osterreich-3.png"
-    dest_file: "article/Playwrite-Osterreich-3.png"
-  }
-  files {
-    source_file: "documentation/about/AT/Playwrite-Osterreich-4.png"
-    dest_file: "article/Playwrite-Osterreich-4.png"
-  }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite Österreich"
 minisite_url: "https://primarium.info/countries/austria"

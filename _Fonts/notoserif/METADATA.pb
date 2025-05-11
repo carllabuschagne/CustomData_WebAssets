@@ -27,6 +27,7 @@ subsets: "greek"
 subsets: "greek-ext"
 subsets: "latin"
 subsets: "latin-ext"
+subsets: "math"
 subsets: "menu"
 subsets: "vietnamese"
 axes {
@@ -41,7 +42,9 @@ axes {
 }
 source {
   repository_url: "https://github.com/notofonts/latin-greek-cyrillic"
-  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.013/NotoSerif-v2.013.zip"
+  commit: "c4a321e123e4d4ff315f57f4e0adf294fe3a95be"
+  config_yaml: "sources/config-serif.yaml"
+  archive_url: "https://github.com/notofonts/latin-greek-cyrillic/releases/download/NotoSerif-v2.015/NotoSerif-v2.015.zip"
   files {
     source_file: "ARTICLE.en_us.html"
     dest_file: "article/ARTICLE.en_us.html"
@@ -74,7 +77,6 @@ languages: "acf_Latn"  # Saint Lucian Creole French, Latin
 languages: "ach_Latn"  # Acoli
 languages: "acu_Latn"  # Achuar-Shiwiar
 languages: "ada_Latn"  # Adangme
-languages: "adl_Latn"
 languages: "ady_Cyrl"  # Adyghe
 languages: "af_Latn"  # Afrikaans
 languages: "agq_Latn"  # Aghem
@@ -160,7 +162,6 @@ languages: "bug_Latn"  # Buginese
 languages: "bum_Latn"  # Bulu
 languages: "bvb_Latn"  # Bube
 languages: "bvi_Latn"  # Belanda Viri, Latin
-languages: "bwy_Latn"
 languages: "byv_Latn"  # Medumba
 languages: "bze_Latn"  # Jenaama Bozo
 languages: "bzx_Latn"  # Bozo, Hainyaxo

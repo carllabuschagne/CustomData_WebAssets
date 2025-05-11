@@ -28,8 +28,9 @@ axes {
   max_value: 400.0
 }
 source {
-  repository_url: "https://github.com/TypeTogether/Playwrite/"
-  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
+  repository_url: "https://github.com/TypeTogether/Playwrite"
+  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
+  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -42,27 +43,8 @@ source {
     source_file: "fonts/variable/PlaywriteGBS-Italic[wght].ttf"
     dest_file: "PlaywriteGBS-Italic[wght].ttf"
   }
-  files {
-    source_file: "documentation/about/GB_S/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-1.png"
-    dest_file: "article/Playwrite-England-SemiSemiJoined-1.png"
-  }
-  files {
-    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-2.png"
-    dest_file: "article/Playwrite-England-SemiSemiJoined-2.png"
-  }
-  files {
-    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-3.png"
-    dest_file: "article/Playwrite-England-SemiSemiJoined-3.png"
-  }
-  files {
-    source_file: "documentation/about/GB_S/Playwrite-England-SemiJoined-4.png"
-    dest_file: "article/Playwrite-England-SemiSemiJoined-4.png"
-  }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite England SemiJoined"
 minisite_url: "https://primarium.info/countries/england"

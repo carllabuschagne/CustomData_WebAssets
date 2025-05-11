@@ -10,7 +10,7 @@ fonts {
   filename: "Shafarik-Regular.ttf"
   post_script_name: "Shafarik-Regular"
   full_name: "Shafarik Regular"
-  copyright: "Copyright 2024 The Shafarik Project Authors (https://github.com/slavonic/shafarik)"
+  copyright: "Copyright 2025 The Shafarik Project Authors (https://github.com/slavonic/Shafarik.git)"
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -20,7 +20,7 @@ subsets: "latin-ext"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/shafarik"
-  commit: "fba443cb341ad1c1b4ae46d957c62ef90f6ba5ab"
+  commit: "e4045d59b275755b2b8532b201402786055466d8"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -34,6 +34,6 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Cyrl"
-primary_language: "cu_Cyrl"

@@ -20,7 +20,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "e53bd89e9d46f46f0f8ce089fdef3a869130f670"
+  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
+  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -29,23 +30,8 @@ source {
     source_file: "fonts/variable/PlaywriteUSModern[wght].ttf"
     dest_file: "PlaywriteUSModern[wght].ttf"
   }
-  files {
-    source_file: "documentation/about/US_Modern/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "documentation/about/US_Modern/Playwrite-USA-Modern-1.png"
-    dest_file: "article/Playwrite-USA-Modern-1.png"
-  }
-  files {
-    source_file: "documentation/about/US_Modern/Playwrite-USA-Modern-2.png"
-    dest_file: "article/Playwrite-USA-Modern-2.png"
-  }
-  files {
-    source_file: "documentation/about/US_Modern/Playwrite-USA-Modern-3.png"
-    dest_file: "article/Playwrite-USA-Modern-3.png"
-  }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite USA Modern"
 minisite_url: "https://primarium.info/countries/united-states-of-america"

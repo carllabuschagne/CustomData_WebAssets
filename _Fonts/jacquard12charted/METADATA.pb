@@ -19,7 +19,8 @@ subsets: "menu"
 subsets: "symbols"
 source {
   repository_url: "https://github.com/scfried/soft-type-jacquard"
-  commit: "9c5c14889fd148d385536658cc2d320be294f32d"
+  commit: "b11565152caccd6eaedce5fe2ca0e377d1a7c597"
+  config_yaml: "sources/config-jacquard12charted.yaml"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"

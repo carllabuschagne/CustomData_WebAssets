@@ -20,7 +20,8 @@ axes {
 }
 source {
   repository_url: "https://github.com/TypeTogether/Playwrite"
-  commit: "30b5a7b7466274c296058dd889b097434d5d6eb9"
+  commit: "02e4e15767f5b6c2109413429fc51879b9507ab4"
+  archive_url: "https://github.com/TypeTogether/Playwrite/releases/download/v1.003/Playwrite-fonts.zip"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -29,23 +30,8 @@ source {
     source_file: "fonts/variable/PlaywriteFRModerne[wght].ttf"
     dest_file: "PlaywriteFRModerne[wght].ttf"
   }
-  files {
-    source_file: "documentation/about/FR_Moderne/ARTICLE.en_us.html"
-    dest_file: "article/ARTICLE.en_us.html"
-  }
-  files {
-    source_file: "documentation/about/FR_Moderne/Playwrite-France-Moderne-1.png"
-    dest_file: "article/Playwrite-France-Moderne-1.png"
-  }
-  files {
-    source_file: "documentation/about/FR_Moderne/Playwrite-France-Moderne-2.png"
-    dest_file: "article/Playwrite-France-Moderne-2.png"
-  }
-  files {
-    source_file: "documentation/about/FR_Moderne/Playwrite-France-Moderne-3.png"
-    dest_file: "article/Playwrite-France-Moderne-3.png"
-  }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 display_name: "Playwrite France Moderne"
 minisite_url: "https://primarium.info/countries/france"

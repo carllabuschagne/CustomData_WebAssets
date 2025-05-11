@@ -10,7 +10,7 @@ fonts {
   filename: "Pochaevsk-Regular.ttf"
   post_script_name: "Pochaevsk-Regular"
   full_name: "Pochaevsk Regular"
-  copyright: "Copyright 2024 The Pochaevsk Project Authors (https://github.com/slavonic/pochaevsk)."
+  copyright: "Copyright 2025 The Pochaevsk Project Authors (https://github.com/slavonic/pochaevsk)."
 }
 subsets: "cyrillic"
 subsets: "cyrillic-ext"
@@ -18,7 +18,7 @@ subsets: "latin"
 subsets: "menu"
 source {
   repository_url: "https://github.com/slavonic/pochaevsk"
-  commit: "45af25f0c0ab2625a8527e1a5c346773253b8c95"
+  commit: "2117e7362d9b465ff0ac1850b535860d43d05f1d"
   files {
     source_file: "OFL.txt"
     dest_file: "OFL.txt"
@@ -32,6 +32,7 @@ source {
     dest_file: "DESCRIPTION.en_us.html"
   }
   branch: "main"
+  config_yaml: "sources/config.yaml"
 }
 primary_script: "Cyrl"
 primary_language: "cu_Cyrl"
