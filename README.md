@@ -1,4 +1,3 @@
-
 <div align="center">
 <br />
   <img src="WaybillRevenueService/Content/Logo.png" alt="logo" width="20%" style='border-radius: 5px;' height="auto" />
@@ -55,4 +54,3 @@ Python Templates to get you started
 ## :dart: UI Frameworks
 
 Offline Frameworks to get you started
-
